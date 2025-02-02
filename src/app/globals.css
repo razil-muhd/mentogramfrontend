@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+}
+.btn {
+  transition: transform 0.25s ease-in, opacity 0.25s ease-in, filter 0.25s ease-in;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  color: #764ba2;
+}
+
+.btns:has(.btn:hover) .btn:not(:hover) {
+  transform: scale(0.8);
+  opacity: 0.8;
+  filter: blur(4px);
+}
