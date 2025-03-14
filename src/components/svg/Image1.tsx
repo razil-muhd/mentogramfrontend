@@ -6,8 +6,8 @@ const Image1 = (props: SVGProps<SVGSVGElement>) => (
     xmlSpace="preserve"
     enableBackground="new 0 0 500 500"
     viewBox="0 0 500 500"
-    width="600" // Adjust width
-    height="600" // Adjust height
+    // width="1000" // Adjust width
+    // height="1000" // Adjust height
     {...props}
   >
     <style>

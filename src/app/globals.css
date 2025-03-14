@@ -5,10 +5,10 @@
 
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+ 
   font-family: Arial, Helvetica, sans-serif;
-  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-color: rgba(255, 255, 255, 0.7);
+
 }
 .btn {
   transition: transform 0.25s ease-in, opacity 0.25s ease-in, filter 0.25s ease-in;
@@ -24,3 +24,4 @@ body {
   opacity: 0.8;
   filter: blur(4px);
 }
+
